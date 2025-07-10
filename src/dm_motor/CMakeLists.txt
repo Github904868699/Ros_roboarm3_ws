@@ -39,6 +39,7 @@ find_package(catkin REQUIRED
   roscpp
   roslib
   message_generation
+  moveit_ros_planning_interface
 )
 ##   * add "message_runtime" and every package in MSG_DEP_SET to
 ##     catkin_package(CATKIN_DEPENDS ...)
@@ -103,6 +104,7 @@ catkin_package(
   roscpp
   roslib
   message_runtime
+  moveit_ros_planning_interface
 #  INCLUDE_DIRS include
 #  LIBRARIES motor_control
 #  CATKIN_DEPENDS other_catkin_pkg
